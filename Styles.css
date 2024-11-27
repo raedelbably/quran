@@ -228,7 +228,9 @@ form {
     margin-bottom: 1rem;
     padding: 20px;
 }
-
+img{
+    width: 300px
+}
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
@@ -311,7 +313,7 @@ footer .social-icons a:hover {
     form {
         background: white;
         padding: 1.5rem;
-        width: 50vh;
+        width: 40vh;
     
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
