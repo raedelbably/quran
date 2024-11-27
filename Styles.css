@@ -57,18 +57,18 @@ section {
 }
 
 .home {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     text-align: center;
     justify-content: space-between;
-    width: 100%;
+ 
 }
 
 .home .img img {
-    width: 450px;
-    height: auto;
+   width: 430px;
     border-radius: 8px;
 }
 
@@ -141,7 +141,7 @@ section {
 .card1 {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* لتوزيع النص والزر */
+    justify-content: space-between; 
     background: #f9f9f9;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -205,6 +205,7 @@ section {
     .card1 {
         flex-direction: column; 
         align-items: flex-start;
+        width: 50%;
     }
 
     .card1 .buttons {
@@ -228,9 +229,7 @@ form {
     margin-bottom: 1rem;
     padding: 20px;
 }
-img{
-    width: 300px;
-}
+
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
@@ -284,7 +283,13 @@ footer .social-icons a:hover {
         width: 95%;
         padding: 15px;
     }
-
+    header{
+        width: 100%;
+    }
+#home{
+    margin: 0;
+    padding: 0;
+}
     .card1 {
         width: 100%;
     }
@@ -310,6 +315,7 @@ footer .social-icons a:hover {
     .card1 h2 {
         font-size: 1.2rem; /* تصغير النص أكثر */
     }
+
     form {
         background: white;
         padding: 1.5rem;
@@ -322,6 +328,14 @@ footer .social-icons a:hover {
         font-size: 0.9rem;
     }
 
+    #home{
+        margin: 0;
+        padding: 0;
+
+    }
+    img{
+        width: 100px;
+    }
     #contact-form form {
         padding: 5px;
     }
